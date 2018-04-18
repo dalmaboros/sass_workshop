@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Joti+One");
+
+$indigo-header: #3d348b;
+$lighter-gray: #e0e2db;
+$erie-black: #191716;
+$yellow: #e6af2e;
+$darker-gray: #beb7a4;
+$maroon: #800000;
+
+$custom-border: 3px dotted $yellow;
+
+$fun-font: 'Joti One', cursive;
+
+@mixin big-info($size, $color) {
+  font: {
+    family: $fun-font;
+    size: $size;
+  }
+  color: $color;
+  background-color: $lighter-gray;
+}

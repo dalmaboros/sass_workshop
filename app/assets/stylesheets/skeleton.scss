@@ -1,0 +1,11 @@
+h1 {
+  @include big-info(40px, $maroon); // mix-in
+}
+
+h2 {
+  color: $maroon;
+}
+
+p {
+  border: $custom-border;
+}

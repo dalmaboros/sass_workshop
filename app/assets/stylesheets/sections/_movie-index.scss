@@ -1,0 +1,23 @@
+// this file is a partial!
+
+.movie-index {
+  h1 {
+    @include big-info(40px, $maroon);
+  }
+
+  p {
+    font: {
+      family: Papyrus;
+      size: 30px;
+    }
+    @extend h2; // grab styling you already defined in another rule
+  }
+
+  .movie-show-link {
+    text: {
+      align: center;
+      decoration: line-through;
+      cool: papyrus; //the browser will try to render this bs
+    }
+  }
+}
